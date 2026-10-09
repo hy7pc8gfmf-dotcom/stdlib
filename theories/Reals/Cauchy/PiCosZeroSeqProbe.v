@@ -46,3 +46,5 @@ Definition cos_zero_seq (n : nat) : Q :=
   proj1_sig (approx_root_cos (log_eps n) (log_eps_pos n)).
 
 Print Assumptions cos_zero_seq.
+
+(* ci dress rehearsal: gpg-signed commit verification *)
